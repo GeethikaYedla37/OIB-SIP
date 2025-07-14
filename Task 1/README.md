@@ -5,7 +5,7 @@ Perform a network scan to identify open ports and running services on a target s
 
 ---
 
-## 🛠Tools Used
+## Tools Used
 - **Nmap** (Network Mapper) - Version 7.95
 - **Operating System**: Kali Linux
 - **Target IP Address**: 192.168.29.147

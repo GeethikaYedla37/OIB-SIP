@@ -50,7 +50,8 @@ sudo ufw deny 80/tcp
 Verify that the rules are active and correct:
 ``` 
 sudo ufw status verbose
-Expected Output:
+```
+### Expected Output:
 Status: active
 To                         Action      From
 --                         ------      ----

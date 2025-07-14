@@ -16,8 +16,8 @@ Perform a network scan to identify open ports and running services on a target s
 ```bash
 nmap -sS -sV 192.168.29.147 -oN nmap_scan_results.txt
 ```
--sS: Stealth TCP SYN scan
--sV: Service version detection
--oN: Save output to a file in normal format
+- -sS: Stealth TCP SYN scan
+- -sV: Service version detection
+- -oN: Save output to a file in normal format
 
 

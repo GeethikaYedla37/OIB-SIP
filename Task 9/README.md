@@ -31,7 +31,8 @@ The goal of this task was to set up a vulnerable web application (DVWA) and perf
    http://127.0.0.1:42001
    ```
 
-4. **Navigated to**  
+4. **Navigated to**
+   
    `SQL Injection` module from the left panel.
 
 ---
@@ -41,7 +42,9 @@ The goal of this task was to set up a vulnerable web application (DVWA) and perf
 - **Tested User ID with SQL Injection:**
   ```
   1' OR '1'='1
+  
   &
+  
   1
   ```
 

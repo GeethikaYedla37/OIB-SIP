@@ -28,10 +28,10 @@ Executed the scan with output saved to a text file:
 nikto -h http://testphp.vulnweb.com -o nikto_scan_results.txt
 ```
 ### 3. Analyze Results
-Target IP:          44.228.249.3
-Target Hostname:    testphp.vulnweb.com
-Target Port:        80
-Server:             nginx/1.19.0
+- Target IP:          44.228.249.3
+- Target Hostname:    testphp.vulnweb.com
+- Target Port:        80
+- Server:             nginx/1.19.0
 
 /login.php: The anti-clickjacking X-Frame-Options header is not present.
 /login.php: The X-Content-Type-Options header is not set.

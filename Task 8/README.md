@@ -6,7 +6,7 @@ To capture and analyze real-time network traffic using the **Wireshark GUI** int
 
 ---
 
-## 🛠Tools Used
+## Tools Used
 
 - **Wireshark** (GUI Application)
 - **Operating System**: Kali Linux

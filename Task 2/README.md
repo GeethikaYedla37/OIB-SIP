@@ -53,9 +53,10 @@ sudo ufw status verbose
 ```
 ### Expected Output:
 Status: active
-To                         Action      From
---                         ------      ----
-22/tcp                     ALLOW       Anywhere
-80/tcp                     DENY        Anywhere
-22/tcp (v6)                ALLOW       Anywhere (v6)
-80/tcp (v6)                DENY        Anywhere (v6)
+| To             | Action | From          |
+|----------------|--------|---------------|
+| 22/tcp         | ALLOW  | Anywhere      |
+| 80/tcp         | DENY   | Anywhere      |
+| 22/tcp (v6)    | ALLOW  | Anywhere (v6) |
+| 80/tcp (v6)    | DENY   | Anywhere (v6) |
+

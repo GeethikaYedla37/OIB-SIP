@@ -22,14 +22,13 @@ nmap -sS -sV 192.168.29.147 -oN nmap_scan_results.txt
 
 
 ## Summary of Open Ports and Services
- Port   State  Service       Version / Description                 
- -----  -----  ------------  ------------------------------------- 
- 135    open   msrpc         Microsoft RPC                         
- 139    open   netbios-ssn   NetBIOS Session Service               
- 445    open   microsoft-ds  SMB over TCP                          
- 554    open   rtsp?         Possibly Real-Time Streaming Protocol 
- 2869   open   http          Microsoft HTTPAPI httpd 2.0 (UPnP)    
- 5357   open   http          Microsoft HTTPAPI httpd 2.0 (UPnP)    
- 10243  open   http          Microsoft HTTPAPI httpd 2.0 (UPnP)    
- 5040   open   unknown       Possibly VirtualBox Virtual NIC       
+ Port | State | Service |     Version / Description                  
+ 135    open    msrpc         Microsoft RPC                         
+ 139    open    netbios-ssn   NetBIOS Session Service               
+ 445    open    microsoft-ds  SMB over TCP                          
+ 554    open    rtsp?         Possibly Real-Time Streaming Protocol 
+ 2869   open    http          Microsoft HTTPAPI httpd 2.0 (UPnP)    
+ 5357   open    http          Microsoft HTTPAPI httpd 2.0 (UPnP)    
+ 10243  open    http          Microsoft HTTPAPI httpd 2.0 (UPnP)    
+ 5040   open    unknown       Possibly VirtualBox Virtual NIC       
  ---

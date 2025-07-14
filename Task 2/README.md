@@ -6,7 +6,7 @@ To configure a basic firewall on a Linux system using **UFW (Uncomplicated Firew
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **UFW (Uncomplicated Firewall)**
 - **Operating System**: Kali Linux / Ubuntu-based system

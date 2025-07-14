@@ -21,7 +21,7 @@ nmap -sS -sV 192.168.29.147 -oN nmap_scan_results.txt
 - -oN: Save output to a file in normal format
 
 
-##Summary of Open Ports and Services
+## Summary of Open Ports and Services
  Port   State  Service       Version / Description                 
  -----  -----  ------------  ------------------------------------- 
  135    open   msrpc         Microsoft RPC                         
@@ -32,5 +32,4 @@ nmap -sS -sV 192.168.29.147 -oN nmap_scan_results.txt
  5357   open   http          Microsoft HTTPAPI httpd 2.0 (UPnP)    
  10243  open   http          Microsoft HTTPAPI httpd 2.0 (UPnP)    
  5040   open   unknown       Possibly VirtualBox Virtual NIC       
-
-
+ ---
